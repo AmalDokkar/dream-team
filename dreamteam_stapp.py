@@ -28,7 +28,7 @@ def setup() -> None:
     ss.COLOR_MAP_EDGES = colormaps["RdYlGn"]
     # Load data
     ss.participants = load_participants("data/datathon_participants_final.json")
-    ss.assignments = pd.read_csv("data/results.csv", index_col=False)
+    ss.assignments = pd.read_csv("data/results_all.csv", index_col=False)
 
 setup() # Executed once per run
 
